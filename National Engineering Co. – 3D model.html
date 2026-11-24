@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>National Engineering Co. – 3D model</title>
+<style>
+:root{--bp:#0b3f75;--bp2:#082f58;--ln:#cfe8ff;--mut:#9fd3ff;--ac:#f5c518;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bp:#082f58;--bp2:#061f3b}}
+:root[data-theme="dark"]{--bp:#082f58;--bp2:#061f3b}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+html,body{height:100%;margin:0;overflow:hidden}
+body{position:relative;color:var(--ln);font-family:ui-monospace,"SFMono-Regular",Menlo,Consolas,"Courier New",monospace;background-color:var(--bp);
+background-image:linear-gradient(rgba(207,232,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(207,232,255,.07) 1px,transparent 1px),linear-gradient(rgba(207,232,255,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(207,232,255,.16) 1px,transparent 1px);
+background-size:20px 20px,20px 20px,100px 100px,100px 100px}
+body::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 55%,var(--bp2) 130%);pointer-events:none}
+#v{position:absolute;inset:0;cursor:grab;touch-action:none}
+#v:active{cursor:grabbing}
+#v canvas{display:block;width:100%;height:100%}
+.sheet{position:absolute;inset:8px;border:1px solid rgba(207,232,255,.6);outline:1px solid rgba(207,232,255,.25);outline-offset:3px;pointer-events:none;z-index:2}
+.hd{position:absolute;top:18px;left:18px;right:18px;display:flex;align-items:center;gap:12px;pointer-events:none;z-index:3}
+.hd img{width:54px;height:54px;border:1px solid var(--ln);display:block;flex:none}
+.hd h1{margin:0;font-size:clamp(13px,3.6vw,20px);letter-spacing:.14em;font-weight:700;color:#fff}
+.hd p{margin:3px 0 0;font-size:clamp(9px,2.4vw,12px);letter-spacing:.06em;color:var(--mut);line-height:1.35}
+.tb{position:absolute;right:18px;bottom:18px;max-width:min(420px,calc(100% - 36px));border:1px solid var(--ln);background:rgba(8,47,88,.82);padding:7px 10px;font-size:clamp(9px,2.4vw,11px);letter-spacing:.06em;line-height:1.5;pointer-events:none;z-index:3}
+.tb b{color:var(--ac);letter-spacing:.14em}
+.wm{position:absolute;inset:0;pointer-events:none;z-index:1;background-image:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22560%22 height=%22280%22%3E%3Cg transform=%22rotate(-18 280 140)%22 font-family=%22Courier New,monospace%22 fill=%22%23ffffff%22 fill-opacity=%220.16%22 text-anchor=%22middle%22%3E%3Ctext x=%22280%22 y=%22135%22 font-size=%2228%22 font-weight=%22700%22 letter-spacing=%222%22%3Enationalengineeringco.com%3C/text%3E%3Ctext x=%22280%22 y=%22172%22 font-size=%2222%22 letter-spacing=%228%22%3ECOMING SOON%3C/text%3E%3C/g%3E%3C/svg%3E");background-size:560px 280px}
+</style>
+</head>
+<body>
+<div id="v"></div>
+<div class="wm"></div>
+<div class="sheet"></div>
+<header class="hd"><img src="data:image/png;base64,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" alt="NEC logo"><div><h1>NATIONAL ENGINEERING CO.</h1><p>Plot B569, Sector 35/A, Korangi Industrial Area, Karachi, Pakistan</p></div></header>
+<div class="tb"><b>3D MODEL</b> LOOP CONVEYOR, BASEMENT TO GROUND FLOOR<br>PREPARED BY NATIONAL ENGINEERING CO. SIZES IN FEET</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+var T=THREE,wrap=document.getElementById('v'),renderer;
+try{renderer=new T.WebGLRenderer({antialias:true,alpha:true});}catch(e){wrap.textContent='This device cannot show 3D.';return;}
+wrap.appendChild(renderer.domElement);var el=renderer.domElement;
+var scene=new T.Scene(),cam=new T.PerspectiveCamera(40,1,0.1,500),G=new T.Group();scene.add(G);
+var SL=14,RISE=14,HS=5.2,LI=30-2*HS,RUN=Math.sqrt(LI*LI-RISE*RISE),SN=RISE/LI,CS=RUN/LI,YT=3+RISE,HX0=6.6,HL=8,HX1=HX0+HL,HW=6,BX=6.4,BW=1.2,BHT=2,BLN=6.4,TSL=0.6,BH=2,a=2.4,N=9,SP=0.8,ZA=-1.3,ZB=1.3;
+var LN=0xcfe8ff,PK=0xff4fa3,PT=[],C=[],L=0,pitch=0,boxes=[],cleats=[],slats=[],boxLbl,s0=0,i,k,j;
+function fill(c,o){return new T.MeshBasicMaterial({color:c,transparent:true,opacity:o,depthWrite:false,side:T.DoubleSide});}
+function edges(m,col,th){m.add(new T.LineSegments(new T.EdgesGeometry(m.geometry,th||20),new T.LineBasicMaterial({color:col||LN})));}
+function bx(w,h,d,c,o,x,y,z,ec){var m=new T.Mesh(new T.BoxGeometry(w,h,d),fill(c,o));m.position.set(x,y,z);G.add(m);edges(m,ec);return m;}
+function label(t,x,y,z,sc,sz){var c=document.createElement('canvas');c.width=512;c.height=80;var g=c.getContext('2d');g.fillStyle=sz?'#ff4fa3':'rgba(4,28,62,0.88)';g.fillRect(0,0,512,80);g.strokeStyle=sz?'#ffffff':'#9fd3ff';g.lineWidth=5;g.strokeRect(3,3,506,74);
+g.fillStyle='#ffffff';g.font='600 32px system-ui,sans-serif';g.textAlign='center';g.textBaseline='middle';g.fillText(t,256,42);
+var s=new T.Sprite(new T.SpriteMaterial({map:new T.CanvasTexture(c),depthTest:false}));s.scale.set(6.4*sc,sc,1);s.position.set(x,y,z);s.renderOrder=9;G.add(s);return s;}
+function dim(x1,y1,z1,x2,y2,z2,txt,lx,ly,lz){var p=new T.Vector3(x1,y1,z1),q=new T.Vector3(x2,y2,z2),d=q.clone().sub(p),len=d.length(),mt=new T.MeshBasicMaterial({color:PK,depthTest:false}),m=new T.Mesh(new T.CylinderGeometry(0.06,0.06,len,8),mt);
+m.position.copy(p).add(q).multiplyScalar(0.5);m.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),d.normalize());m.renderOrder=8;G.add(m);
+[p,q].forEach(function(e){var s=new T.Mesh(new T.SphereGeometry(0.16,10,8),mt);s.position.copy(e);s.renderOrder=8;G.add(s);});
+label(txt,lx===undefined?(x1+x2)/2:lx,ly===undefined?(y1+y2)/2+0.4:ly,lz===undefined?(z1+z2)/2:lz,0.55,1);}
+function nm(p,q){var dx=p[0]-q[0],dy=p[1]-q[1],l=Math.hypot(dx,dy);return [dx/l,dy/l];}
+function ribbon(list,col){var pos=[],idx=[];for(i=0;i<list.length;i++){var p=list[i];pos.push(p.x,p.y,p.z-1.2,p.x,p.y,p.z+1.2);if(i){var k2=2*(i-1);idx.push(k2,k2+1,k2+2,k2+1,k2+3,k2+2);}}
+var g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(pos,3));g.setIndex(idx);g.computeVertexNormals();var m=new T.Mesh(g,fill(col,0.4));G.add(m);edges(m,LN,25);}
+function deck(px,py,ts,tc){var m=new T.Mesh(new T.RingGeometry(0.1,2.5,48,1,ts,Math.PI),fill(0x6fb4ff,0.35));m.rotation.x=-Math.PI/2;m.position.set(px,py-0.01,0);G.add(m);edges(m,LN,30);
+var w=new T.Mesh(new T.CylinderGeometry(2.58,2.58,1.7,40,1,true,tc,Math.PI),fill(0x9fd3ff,0.12));w.position.set(px,py+0.85,0);G.add(w);edges(w,LN,40);}
+var xb=a-HS,xp=a+RUN+HS,PC=0x9fd3ff,ang=Math.atan2(RISE,RUN);
+var gr=new T.GridHelper(70,35,0x7fb8ff,0x2f78c4);gr.position.set(11,0,0);G.add(gr);
+[[HX0+8,16,(HX0-8)/2,0],[36-HX1,16,(HX1+36)/2,0],[HL,8-HW/2,(HX0+HX1)/2,(HW/2+8)/2],[HL,8-HW/2,(HX0+HX1)/2,-(HW/2+8)/2]].forEach(function(p){bx(p[0],TSL,p[1],0x6fb4ff,0.22,p[2],SL-TSL/2,p[3],PC);});
+bx(BW,BHT,BLN,0xff6b4a,0.55,BX,SL-TSL-BHT/2,0,0xffb199);
+var V=[[xb,3],[a,3],[a+RUN,YT],[xp,YT]],raw=[V[0]];
+for(i=1;i<3;i++){var p=V[i-1],c=V[i],n=V[i+1],u=nm(c,p),w=nm(n,c),t=3.5*Math.tan(Math.acos(u[0]*w[0]+u[1]*w[1])/2),s=[c[0]-u[0]*t,c[1]-u[1]*t],e=[c[0]+w[0]*t,c[1]+w[1]*t];
+for(k=0;k<=10;k++){var q=k/10,m=1-q;raw.push([m*m*s[0]+2*m*q*c[0]+q*q*e[0],m*m*s[1]+2*m*q*c[1]+q*q*e[1]]);}}
+raw.push(V[3]);
+var len=[0],tot=0;for(i=1;i<raw.length;i++){tot+=Math.hypot(raw[i][0]-raw[i-1][0],raw[i][1]-raw[i-1][1]);len.push(tot);}
+var n2=Math.round(tot/0.4),xy=[];j=0;for(k=0;k<=n2;k++){var d=tot*k/n2;while(j<raw.length-2&&len[j+1]<d)j++;var f=(d-len[j])/(len[j+1]-len[j]);xy.push([raw[j][0]+(raw[j+1][0]-raw[j][0])*f,raw[j][1]+(raw[j+1][1]-raw[j][1])*f]);}
+var tl=xy.map(function(_,i){var p=xy[Math.max(0,i-1)],q=xy[Math.min(n2,i+1)];return Math.atan2(q[1]-p[1],q[0]-p[0]);}),M=26;
+for(k=0;k<=n2;k++)PT.push({x:xy[k][0],y:xy[k][1],z:ZA,a:tl[k],yaw:0,id:0});
+for(k=1;k<=M;k++){var f1=Math.PI*k/M;PT.push({x:xp+1.3*Math.sin(f1),y:YT,z:-1.3*Math.cos(f1),a:0,yaw:-f1,id:1});}
+for(i=n2-1;i>=0;i--)PT.push({x:xy[i][0],y:xy[i][1],z:ZB,a:tl[i],yaw:0,id:2});
+for(k=1;k<M;k++){var f2=Math.PI*k/M;PT.push({x:xb-1.3*Math.sin(f2),y:3,z:1.3*Math.cos(f2),a:0,yaw:Math.PI-f2,id:3});}
+C=[0];for(i=1;i<PT.length;i++)C.push(C[i-1]+Math.sqrt(Math.pow(PT[i].x-PT[i-1].x,2)+Math.pow(PT[i].y-PT[i-1].y,2)+Math.pow(PT[i].z-PT[i-1].z,2)));
+var last=PT[PT.length-1];L=C[C.length-1]+Math.sqrt(Math.pow(last.x-PT[0].x,2)+Math.pow(last.y-PT[0].y,2)+Math.pow(last.z-PT[0].z,2));C.push(L);pitch=L/N;
+ribbon(PT.filter(function(p){return p.id===0;}),0x4fd1ff);ribbon(PT.filter(function(p){return p.id===2;}),0x8fb4ff);
+deck(xp,YT,-Math.PI/2,0);deck(xb,3,Math.PI/2,Math.PI);
+function pil(x,z,y0,y1){bx(0.3,y1-y0,0.3,0x6fb4ff,0.5,x,(y0+y1)/2,z,PC);}
+[-1,1].forEach(function(sd){var z=sd*2.75;pil(xb,z,0,2.9);pil(a-0.2,z,0,2.9);pil(a+RUN+0.2,z,SL,YT-0.1);pil(xp,z,SL,YT-0.1);
+bx(HS-0.2,0.25,0.3,0x6fb4ff,0.5,(xb+a-0.2)/2,2.78,z,PC);bx(xp-a-RUN-0.2,0.25,0.3,0x6fb4ff,0.5,(xp+a+RUN+0.2)/2,YT-0.22,z,PC);
+var fr=bx(LI,0.35,0.3,0x6fb4ff,0.5,a+RUN/2+Math.sin(ang)*0.35,3+RISE/2-Math.cos(ang)*0.35,z,PC);fr.rotation.z=ang;});
+[xb,a-0.2].forEach(function(x){bx(0.3,0.25,5.5,0x6fb4ff,0.5,x,2.78,0,PC);});[a+RUN+0.2,xp].forEach(function(x){bx(0.3,0.25,5.5,0x6fb4ff,0.5,x,YT-0.22,0,PC);});
+for(i=0;i<N;i++){var b=new T.Mesh(new T.BoxGeometry(2,BH,2),fill(0xffd23f,0.6));edges(b,0xffffff);G.add(b);boxes.push(b);}
+var cg=new T.BoxGeometry(0.12,0.5,2.4),cm=new T.MeshBasicMaterial({color:0xffa24a});for(i=0;i<2*N;i++){var cl=new T.Mesh(cg,cm);G.add(cl);cleats.push(cl);}
+var sg=new T.BoxGeometry(0.05,0.04,2.4),sm=new T.MeshBasicMaterial({color:0x8fc6ff}),ns=Math.round(L/0.9);for(i=0;i<ns;i++){var sl=new T.Mesh(sg,sm);G.add(sl);slats.push(sl);}
+var fm=function(n){return Math.abs(n-Math.round(n))<0.05?String(Math.round(n)):n.toFixed(1);},ag=Math.asin(SN)*180/Math.PI;
+label('Up belt',a+RUN/2,3+RISE/2+1.4,-4.4,0.7);label('Down belt',a+RUN/2,3+RISE/2+1.4,4.4,0.7);label('Ground floor pick zone',a+RUN+2,YT+3,0,0.7);label('Basement load and pick zone',a-2.5,6,0,0.7);label('Ground floor',-4,SL+1.4,7,0.7);label('Basement',-4,1.4,7,0.7);
+label('Beam '+fm(BHT)+' ft high',BX,SL+1.6,0,0.7,1);boxLbl=label('Box 2 x 2 ft, 15-25 kg',0,0,0,0.7,1);
+dim(-9,0,-4.5,-9,SL,-4.5,fm(SL)+' ft floor to floor');dim(HX0,SL+0.1,-HW/2-0.8,HX1,SL+0.1,-HW/2-0.8,'Hole '+fm(HL)+' ft long');dim(HX1+0.8,SL+0.1,-HW/2,HX1+0.8,SL+0.1,HW/2,'Hole '+fm(HW)+' ft wide');
+dim(a,3,6,a+RUN,3,6,'Run '+fm(RUN)+' ft');dim(a+RUN,3,6,a+RUN,YT,6,'Rise '+fm(RISE)+' ft');dim(a,3,6,a+RUN,YT,6,'Incline '+fm(LI)+' ft, '+fm(ag)+' deg',a+RUN*0.3,3+RISE*0.3+1.5,6);
+dim(a-7,0,4.6,a-7,3,4.6,'Station 3 ft');dim(xp+4.5,SL,4.6,xp+4.5,YT,4.6,'Station 3 ft');dim(xb,0.1,4.2,a,0.1,4.2,'Flat '+fm(HS)+' ft');dim(a+RUN,YT,4.2,xp,YT,4.2,'Flat '+fm(HS)+' ft');
+dim(xp,YT+0.3,0,xp+2.5,YT+0.3,0,'R 2.5 ft outer');label('R 1.3 centre, hub R 0.1',xp+1.3,YT+1.5,0,0.5,1);dim(xp-1.2,YT+0.2,-2.5,xp-1.2,YT+0.2,2.5,'U width 5 ft');
+dim(xb,3.3,0,xb-2.5,3.3,0,'R 2.5 ft outer');label('R 1.3 centre, hub R 0.1',xb-1.3,4.5,0,0.5,1);dim(xb+1.2,3.2,-2.5,xb+1.2,3.2,2.5,'U width 5 ft');
+dim(a+4,3.1,-2.5,a+4,3.1,-0.1,'Lane 2.4 ft, gap 0.2 ft');label('Belt bend R 3.5 ft',a+0.5,5.2,-3.4,0.55,1);label('Conveyor 30 ft total',a+RUN/2+3,3+RISE/2-2.5,-4.4,0.6,1);
+function sample(s){s=((s%L)+L)%L;var i=0;while(i<PT.length-1&&C[i+1]<=s)i++;var p=PT[i],q=PT[(i+1)%PT.length],f=(s-C[i])/(C[i+1]-C[i]);
+return {x:p.x+(q.x-p.x)*f,y:p.y+(q.y-p.y)*f,z:p.z+(q.z-p.z)*f,a:p.a+(q.a-p.a)*f,yaw:p.id===q.id?p.yaw+(q.yaw-p.yaw)*f:p.yaw,id:p.id};}
+function place(){var r,m;
+for(i=0;i<N;i++){r=sample(s0+i*pitch);boxes[i].position.set(r.x-Math.sin(r.a)*BH/2,r.y+Math.cos(r.a)*BH/2,r.z);boxes[i].rotation.set(0,r.yaw,r.a);}
+for(i=0;i<2*N;i++){r=sample(s0+(i>>1)*pitch+(i&1?1.15:-1.15));var f=(r.id===1||r.id===3)?0.15:1;m=cleats[i];m.scale.y=f;m.position.set(r.x-Math.sin(r.a)*0.25*f,r.y+Math.cos(r.a)*0.25*f,r.z);m.rotation.set(0,r.yaw,r.a);}
+for(i=0;i<slats.length;i++){r=sample(s0+i*L/slats.length);slats[i].position.set(r.x-Math.sin(r.a)*0.02,r.y+Math.cos(r.a)*0.02,r.z);slats[i].rotation.set(0,r.yaw,r.a);}
+boxLbl.position.set(boxes[0].position.x,boxes[0].position.y+BH/2+0.9,boxes[0].position.z);}
+var TG=new T.Vector3(a+RUN/2+2,9,0),th=0.75,ph=1.15,rad=60,touched=false,pts={};
+function clp(v,lo,hi){return Math.max(lo,Math.min(hi,v));}
+function fit(){var vf=cam.fov*Math.PI/180,hf=2*Math.atan(Math.tan(vf/2)*cam.aspect);return 21/Math.sin(Math.min(vf,hf)/2);}
+function size(){var w=wrap.clientWidth,h=wrap.clientHeight;if(!w||!h)return;renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));renderer.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix();if(!touched)rad=fit();}
+new ResizeObserver(size).observe(wrap);
+el.addEventListener('pointerdown',function(e){try{el.setPointerCapture(e.pointerId);}catch(x){}pts[e.pointerId]=[e.clientX,e.clientY];touched=true;});
+el.addEventListener('pointermove',function(e){var p=pts[e.pointerId];if(!p)return;var ids=Object.keys(pts);
+if(ids.length===1){th-=(e.clientX-p[0])*0.008;ph=clp(ph-(e.clientY-p[1])*0.008,0.1,1.5);}
+else{var o=pts[ids[0]==e.pointerId?ids[1]:ids[0]],d0=Math.hypot(p[0]-o[0],p[1]-o[1]),d1=Math.hypot(e.clientX-o[0],e.clientY-o[1]);if(d1>0)rad=clp(rad*d0/d1,10,120);}
+pts[e.pointerId]=[e.clientX,e.clientY];});
+function up(e){delete pts[e.pointerId];}el.addEventListener('pointerup',up);el.addEventListener('pointercancel',up);
+el.addEventListener('wheel',function(e){e.preventDefault();touched=true;rad=clp(rad*(1+e.deltaY*0.001),10,120);},{passive:false});
+var lt=performance.now();
+function loop(t){var dt=Math.min(0.05,(t-lt)/1000);lt=t;s0+=SP*dt;place();
+cam.position.set(TG.x+rad*Math.sin(ph)*Math.sin(th),TG.y+rad*Math.cos(ph),TG.z+rad*Math.sin(ph)*Math.cos(th));cam.lookAt(TG);renderer.render(scene,cam);requestAnimationFrame(loop);}
+size();requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
